@@ -1,0 +1,51 @@
+.heroSection {
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  box-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  box-direction: normal;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-direction: column;
+  height: 100vh;
+  /* background: #388d80; */
+  z-index: 2;
+  overflow: visible;
+}
+.heroContent {
+  padding-top: 88px;
+  position: relative;
+  z-index: 1;
+}
+
+.heroBackground {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  /* background-color: #2f454f; */
+}
+
+.green {
+  background: #388d80;
+}
+.blue {
+  background: #4583aa;
+}
+.red {
+  background: #bc382e;
+}
